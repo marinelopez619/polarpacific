@@ -1,0 +1,6 @@
+1 - Extremely good!
+2 - Great.
+3 - Good.
+4 - It's Ok.
+5 - Bad!
+6 - The worst site I have ever seen!
