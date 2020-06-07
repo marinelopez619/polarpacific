@@ -47,7 +47,7 @@ p {
     margin: 0;
     text-align: left;
     color: #0f4c75;
-    text-shadow: .3px .3px black;
+    font-size: 1.1em;
 }
 
 tr {
@@ -127,18 +127,18 @@ tr {
 /**********************individual headers**************************/
 .about-us-header {
     width: 150px;
-    line-height: 2;
+    line-height: 3;
 }
 
 .the-team-header {
     width: 157px;
-    line-height: 2;
+    line-height: 3;
 }
 
 .intouch-header {
     color: white;
     text-shadow: 1px 1px black;
-    line-height: 2;
+    line-height: 3;
 }
 
 .copyright {
