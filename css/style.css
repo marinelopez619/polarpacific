@@ -24,6 +24,7 @@ h3 {
     color: #0f4c75;
     margin: 0 auto;
     line-height: 2;
+    text-shadow: 1px 1px black;
 }
 
 hr {
@@ -45,10 +46,22 @@ p {
     line-height: 2.5;
     margin: 0;
     text-align: left;
+    color: #0f4c75;
+    text-shadow: .3px .3px black;
 }
 
 tr {
-    margin-bottom: 10px;
+    line-height: 3;
+}
+
+.data-label{
+    width: 25%;
+    text-align: left;
+}
+
+.data-input{
+    width:70%;
+    text-align: left;
 }
 
 /**********************Containers**************************/
@@ -80,7 +93,7 @@ tr {
 }
 
 .bios-container {
-    padding-top:2%;
+    padding-top: 2%;
     padding-bottom: 4%;
 }
 
@@ -124,7 +137,7 @@ tr {
 
 .intouch-header {
     color: white;
-    text-shadow: 2px 2px black;
+    text-shadow: 1px 1px black;
     line-height: 2;
 }
 
