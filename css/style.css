@@ -1,3 +1,4 @@
+/**********************Elements**************************/
 body {
     margin: 0;
     text-align: center;
@@ -7,35 +8,26 @@ body {
 h1 {
     font-family: 'Montserrat', sans-serif;
     color: #0f4c75;
+    margin: 0 auto;
+    text-decoration: underline;
 }
 
 h2 {
     font-family: 'Montserrat', sans-serif;
     color: #0f4c75;
+    margin: 0 auto;
 }
 
 h3 {
     font-family: 'Great Vibes', cursive;
     font-size: 4em;
     color: #0f4c75;
+    margin: 0 auto;
+    line-height: 2;
 }
 
 hr {
     width: 75%;
-}
-
-.nav-bar-container {
-    display: block;
-    background-color: black;
-    color: #2c88c7;
-    position: fixed;
-    width: 100%;
-    box-shadow: 0 0 .5em #2c88c7;
-}
-
-.logo-img {
-    width: 75%;
-    padding-top: 30px;
 }
 
 ul {
@@ -48,33 +40,60 @@ li {
     margin: 1em;
 }
 
-.about-us-container {
-    background-color: #bbe1fa;
-    color: black;
-    padding-left: 15%;
-    padding-right: 15%;
-    text-align: left;
-}
-
 p {
     word-spacing: 2px;
     line-height: 2.5;
     margin: 0;
+    text-align: left;
+}
+
+tr {
+    margin-bottom: 10px;
+}
+
+/**********************Containers**************************/
+.nav-bar-container {
+    display: block;
+    background-color: black;
+    color: #2c88c7;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 .5em #2c88c7;
+}
+
+.intro-image-container {
+    padding-top: 30px;
+}
+
+.about-us-container {
+    background-color: #bbe1fa;
+    color: black;
+    padding: 2% 15% 2%;
+    text-align: center;
+}
+
+.the-team-container {
+    background-color: #bbe1fa;
+    color: black;
+    padding: 0 15% 2%;
+    text-align: center;
+}
+
+.bios-container {
+    padding-top:2%;
+    padding-bottom: 4%;
+}
+
+.lisa-container {
+    padding-top: 4%;
 }
 
 .contact-us-container {
     background-color: #3282b8;
     color: white;
     padding: 20px;
-}
-
-.slogan {
-    color: white;
-}
-
-.form-container {
-    display: inline-block;
-    width: 49.5%;
+    padding-left: 15%;
+    padding-right: 15%;
 }
 
 .footer-container {
@@ -92,6 +111,28 @@ p {
     left: 20px;
 }
 
-tr {
-    margin-bottom: 10px;
+/**********************individual headers**************************/
+.about-us-header {
+    width: 150px;
+    line-height: 2;
+}
+
+.the-team-header {
+    width: 157px;
+    line-height: 2;
+}
+
+.intouch-header {
+    color: white;
+    text-shadow: 2px 2px black;
+    line-height: 2;
+}
+
+.copyright {
+    text-align: center;
+}
+
+/****************************images**********************************/
+.logo-img {
+    width: 75%;
 }
