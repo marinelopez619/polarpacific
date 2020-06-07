@@ -24,6 +24,15 @@ hr {
     width: 75%;
 }
 
+.nav-bar-container {
+    display: block;
+    background-color: black;
+    color: #2c88c7;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 .5em #2c88c7;
+}
+
 .logo-img {
     width: 75%;
     padding-top: 30px;
@@ -37,14 +46,6 @@ ul {
 li {
     display: inline-block;
     margin: 1em;
-}
-
-.nav-bar-container {
-    background-color: black;
-    color: #2c88c7;
-    position: fixed;
-    width: 100%;
-    box-shadow: 0 0 .5em #2c88c7;
 }
 
 .about-us-container {
