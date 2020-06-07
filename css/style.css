@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0f4c75;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #0f4c75;
+}
+
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 4em;
+    color: #0f4c75;
+}
+
+hr {
+    width: 75%;
+}
+
+.logo-img {
+    width: 75%;
+    padding-top: 30px;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin: 1em;
+}
+
+.nav-bar-container {
+    background-color: black;
+    color: #2c88c7;
+    position: fixed;
+    width: 100%;
+    box-shadow: 0 0 .5em #2c88c7;
+}
+
+.about-us-container {
+    background-color: #bbe1fa;
+    color: black;
+    padding-left: 15%;
+    padding-right: 15%;
+    text-align: left;
+}
+
+p {
+    word-spacing: 2px;
+    line-height: 2.5;
+    margin: 0;
+}
+
+.contact-us-container {
+    background-color: #3282b8;
+    color: white;
+    padding: 20px;
+}
+
+.slogan {
+    color: white;
+}
+
+.form-container {
+    display: inline-block;
+    width: 49.5%;
+}
+
+.footer-container {
+    padding-top: 20px;
+    background-color: white;
+    background-color: black;
+    color: white;
+}
+
+.map {
+    display: inline-block;
+    width: 49.5%;
+    position: relative;
+    bottom: 100px;
+    left: 20px;
+}
+
+tr {
+    margin-bottom: 10px;
+}
