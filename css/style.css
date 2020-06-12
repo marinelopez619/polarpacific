@@ -20,17 +20,16 @@ h2 {
 
 h3 {
     font-family: 'Great Vibes', cursive;
-    font-size: 4em;
-    color: #0f4c75;
+    color: #00204a;
     margin: 0 auto;
-    line-height: 2;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px white;
+    font-size: 2.5em;
 }
 
 hr {
     width: 75%;
 }
-
+/**********************/
 ul {
     margin: 0;
     list-style-type: none;
@@ -41,26 +40,57 @@ li {
     margin: 1em;
 }
 
+li a {
+    margin:0;
+    padding: 0;
+}
+
+a:link, a:visited {
+  color: #1E62D0;
+  text-decoration: none;
+  cursor: auto;
+}
+
+a:link:active, a:visited:active {
+  color: #1E62D0;
+}
+
+li a:hover,
+a:hover
+    {
+    background-color: rgba(37, 41, 47);
+    color: #2c88c7;
+    border: 7px solid #2c88c7;
+}
+/*************************************/
 p {
     word-spacing: 2px;
-    line-height: 2.5;
     margin: 0;
-    text-align: left;
-    color: #0f4c75;
-    font-size: 1.1em;
+    color: #00204a;
+    font-size: 1em;
+    line-height: 2;
 }
 
 tr {
     line-height: 3;
+
+}
+table{
+    width:100%;
+    margin-bottom: 35px;
 }
 
-.data-label{
+button {
+    margin-bottom: 50px;
+}
+
+.data-label {
     width: 25%;
     text-align: left;
 }
 
-.data-input{
-    width:70%;
+.data-input {
+    width: 70%;
     text-align: left;
 }
 
@@ -74,39 +104,46 @@ tr {
     box-shadow: 0 0 .5em #2c88c7;
 }
 
-.intro-image-container {
+#intro-image-container {
+    padding-top: 80px;
+}
+
+#about-us-container {
+    background-color: #bbe1fa;
+    padding-top: 80px;
+}
+
+.about-us-sub-container {
+    color: black;
+    width: 50%;
+    margin: auto;
+    text-align: left;
+}
+
+#the-team-container {
+    background-color: #bbe1fa;
+    color: black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.michael-container, .lisa-container {
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+    margin-top: 50px;
+}
+
+#contact-us-container {
+    background-color: #3282b8;
+    color: white;
     padding-top: 30px;
 }
 
-.about-us-container {
-    background-color: #bbe1fa;
-    color: black;
-    padding: 2% 15% 2%;
-    text-align: center;
-}
-
-.the-team-container {
-    background-color: #bbe1fa;
-    color: black;
-    padding: 0 15% 2%;
-    text-align: center;
-}
-
-.bios-container {
-    padding-top: 2%;
-    padding-bottom: 4%;
-}
-
-.lisa-container {
-    padding-top: 4%;
-}
-
-.contact-us-container {
-    background-color: #3282b8;
-    color: white;
-    padding: 20px;
-    padding-left: 15%;
-    padding-right: 15%;
+.contact-us-sub-container {
+    width: 50%;
+    margin:auto;
 }
 
 .footer-container {
@@ -116,13 +153,6 @@ tr {
     color: white;
 }
 
-.map {
-    display: inline-block;
-    width: 49.5%;
-    position: relative;
-    bottom: 100px;
-    left: 20px;
-}
 
 /**********************individual headers**************************/
 .about-us-header {
@@ -138,7 +168,7 @@ tr {
 .intouch-header {
     color: white;
     text-shadow: 1px 1px black;
-    line-height: 3;
+    line-height: 2.5;
 }
 
 .copyright {
@@ -148,4 +178,16 @@ tr {
 /****************************images**********************************/
 .logo-img {
     width: 75%;
+}
+
+.michael-img {
+    width: 40%;
+    float: left;
+    margin-right: 30px;
+}
+
+.lisa-img {
+    width: 40%;
+    float: right;
+    margin-left: 30px;
 }
