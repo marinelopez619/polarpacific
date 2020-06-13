@@ -9,7 +9,6 @@ h1 {
     font-family: 'Montserrat', sans-serif;
     color: #0f4c75;
     margin: 0 auto;
-    text-decoration: underline;
 }
 
 h2 {
@@ -25,10 +24,12 @@ h3 {
     text-shadow: 1px 1px white;
     font-size: 2.5em;
 }
-
-hr {
-    width: 75%;
+h6{
+    font-family: 'Montserrat', sans-serif;
+    color: #0f4c75;
+    margin: 0 auto;
 }
+
 /**********************/
 ul {
     margin: 0;
@@ -41,27 +42,26 @@ li {
 }
 
 li a {
-    margin:0;
+    margin: 0;
     padding: 0;
 }
 
 a:link, a:visited {
-  color: #1E62D0;
-  text-decoration: none;
-  cursor: auto;
+    color: #1E62D0;
+    text-decoration: none;
+    cursor: auto;
 }
 
 a:link:active, a:visited:active {
-  color: #1E62D0;
+    color: #1E62D0;
 }
 
 li a:hover,
-a:hover
-    {
-    background-color: rgba(37, 41, 47);
-    color: #2c88c7;
-    border: 7px solid #2c88c7;
+a:hover {
+    background-color: darkgrey;
+    color: white;
 }
+
 /*************************************/
 p {
     word-spacing: 2px;
@@ -73,10 +73,10 @@ p {
 
 tr {
     line-height: 3;
-
 }
-table{
-    width:100%;
+
+table {
+    width: 100%;
     margin-bottom: 35px;
 }
 
@@ -101,12 +101,23 @@ button {
     color: #2c88c7;
     position: fixed;
     width: 100%;
-    box-shadow: 0 0 .5em #2c88c7;
 }
 
 #intro-image-container {
     padding-top: 80px;
 }
+
+#projects-container {
+    padding-top: 80px;
+}
+
+.projects-sub-container {
+    width: 75%;
+    margin: auto;
+    text-align: left;
+}
+
+
 
 #about-us-container {
     background-color: #bbe1fa;
@@ -143,7 +154,7 @@ button {
 
 .contact-us-sub-container {
     width: 50%;
-    margin:auto;
+    margin: auto;
 }
 
 .footer-container {
@@ -153,15 +164,19 @@ button {
     color: white;
 }
 
-
 /**********************individual headers**************************/
+.projects-header {
+    width: 300px;
+    line-height: 3;
+}
+
 .about-us-header {
-    width: 150px;
+    width: 180px;
     line-height: 3;
 }
 
 .the-team-header {
-    width: 157px;
+    width: 165px;
     line-height: 3;
 }
 
@@ -173,11 +188,19 @@ button {
 
 .copyright {
     text-align: center;
+    color: #2c88c7;
+    position: relative;
+    bottom: 9px;
 }
 
 /****************************images**********************************/
 .logo-img {
     width: 75%;
+}
+
+.thumbnail-img {
+    width: 50%;
+    margin-right: 30px;
 }
 
 .michael-img {
@@ -190,4 +213,21 @@ button {
     width: 40%;
     float: right;
     margin-left: 30px;
+}
+
+/*******************************portfolio page**************/
+.lindy-container {
+    background-color: #3282b8;
+    padding-top: 65px;
+    padding-bottom: 35px;
+}
+
+.lindy-sub-container {
+    width: 50%;
+    margin: auto;
+    margin-top: 30px
+}
+
+iframe {
+    width: 100%;
 }
